@@ -4,7 +4,7 @@ import { Router } from 'express';
 const router=Router();
 
 //end points (Rutas)
-router.get('/noeli/:id',getAmor)
-insret.post('/noelia',postAmor)
+router.get('/noelia/:id',getAmor)
+router.post('/noelia',postAmor)
 
 export default router;
